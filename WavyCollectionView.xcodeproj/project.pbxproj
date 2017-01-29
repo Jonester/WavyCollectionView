@@ -13,6 +13,7 @@
 		3CB96C7F1E3E95C100DD24C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB96C7D1E3E95C100DD24C6 /* Main.storyboard */; };
 		3CB96C811E3E95C100DD24C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB96C801E3E95C100DD24C6 /* Assets.xcassets */; };
 		3CB96C841E3E95C100DD24C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB96C821E3E95C100DD24C6 /* LaunchScreen.storyboard */; };
+		3CB96C8D1E3E97B000DD24C6 /* WavyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB96C8C1E3E97B000DD24C6 /* WavyFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3CB96C801E3E95C100DD24C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CB96C831E3E95C100DD24C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CB96C851E3E95C100DD24C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB96C8B1E3E97B000DD24C6 /* WavyFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavyFlowLayout.h; sourceTree = "<group>"; };
+		3CB96C8C1E3E97B000DD24C6 /* WavyFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavyFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +61,11 @@
 		3CB96C731E3E95C100DD24C6 /* WavyCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				3CB96C771E3E95C100DD24C6 /* AppDelegate.h */,
-				3CB96C781E3E95C100DD24C6 /* AppDelegate.m */,
 				3CB96C7A1E3E95C100DD24C6 /* ViewController.h */,
 				3CB96C7B1E3E95C100DD24C6 /* ViewController.m */,
+				3CB96C8B1E3E97B000DD24C6 /* WavyFlowLayout.h */,
+				3CB96C8C1E3E97B000DD24C6 /* WavyFlowLayout.m */,
 				3CB96C7D1E3E95C100DD24C6 /* Main.storyboard */,
-				3CB96C801E3E95C100DD24C6 /* Assets.xcassets */,
-				3CB96C821E3E95C100DD24C6 /* LaunchScreen.storyboard */,
-				3CB96C851E3E95C100DD24C6 /* Info.plist */,
 				3CB96C741E3E95C100DD24C6 /* Supporting Files */,
 			);
 			path = WavyCollectionView;
@@ -74,6 +74,11 @@
 		3CB96C741E3E95C100DD24C6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3CB96C801E3E95C100DD24C6 /* Assets.xcassets */,
+				3CB96C821E3E95C100DD24C6 /* LaunchScreen.storyboard */,
+				3CB96C851E3E95C100DD24C6 /* Info.plist */,
+				3CB96C771E3E95C100DD24C6 /* AppDelegate.h */,
+				3CB96C781E3E95C100DD24C6 /* AppDelegate.m */,
 				3CB96C751E3E95C100DD24C6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB96C8D1E3E97B000DD24C6 /* WavyFlowLayout.m in Sources */,
 				3CB96C7C1E3E95C100DD24C6 /* ViewController.m in Sources */,
 				3CB96C791E3E95C100DD24C6 /* AppDelegate.m in Sources */,
 				3CB96C761E3E95C100DD24C6 /* main.m in Sources */,
